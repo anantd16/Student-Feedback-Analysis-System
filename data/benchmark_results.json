@@ -1,0 +1,512 @@
+{
+  "v1": {
+    "overall_accuracy": 0.8857,
+    "sentiment_accuracy": 1.0,
+    "sentiment_f1": 1.0,
+    "category_accuracy": 0.8857,
+    "category_f1": 0.8768,
+    "elapsed_seconds": 10.66,
+    "sentiment_confusion_matrix": {
+      "positive": {
+        "positive": 11,
+        "neutral": 0,
+        "negative": 0,
+        "mixed": 0
+      },
+      "neutral": {
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "mixed": 0
+      },
+      "negative": {
+        "positive": 0,
+        "neutral": 0,
+        "negative": 21,
+        "mixed": 0
+      },
+      "mixed": {
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "mixed": 2
+      }
+    },
+    "category_confusion_matrix": {
+      "teaching": {
+        "teaching": 5,
+        "assessment": 0,
+        "workload": 0,
+        "facilities": 0,
+        "administration": 0,
+        "course_content": 1,
+        "other": 0
+      },
+      "assessment": {
+        "teaching": 0,
+        "assessment": 6,
+        "workload": 0,
+        "facilities": 0,
+        "administration": 0,
+        "course_content": 0,
+        "other": 0
+      },
+      "workload": {
+        "teaching": 1,
+        "assessment": 0,
+        "workload": 6,
+        "facilities": 0,
+        "administration": 0,
+        "course_content": 0,
+        "other": 0
+      },
+      "facilities": {
+        "teaching": 2,
+        "assessment": 0,
+        "workload": 0,
+        "facilities": 5,
+        "administration": 0,
+        "course_content": 0,
+        "other": 0
+      },
+      "administration": {
+        "teaching": 0,
+        "assessment": 0,
+        "workload": 0,
+        "facilities": 0,
+        "administration": 5,
+        "course_content": 0,
+        "other": 0
+      },
+      "course_content": {
+        "teaching": 0,
+        "assessment": 0,
+        "workload": 0,
+        "facilities": 0,
+        "administration": 0,
+        "course_content": 1,
+        "other": 0
+      },
+      "other": {
+        "teaching": 0,
+        "assessment": 0,
+        "workload": 0,
+        "facilities": 0,
+        "administration": 0,
+        "course_content": 0,
+        "other": 3
+      }
+    },
+    "per_class_sentiment": {
+      "positive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "neutral": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "negative": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 21
+      },
+      "mixed": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      }
+    },
+    "per_class_category": {
+      "teaching": {
+        "precision": 0.625,
+        "recall": 0.833,
+        "f1": 0.714,
+        "support": 6
+      },
+      "assessment": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      },
+      "workload": {
+        "precision": 1.0,
+        "recall": 0.857,
+        "f1": 0.923,
+        "support": 7
+      },
+      "facilities": {
+        "precision": 1.0,
+        "recall": 0.714,
+        "f1": 0.833,
+        "support": 7
+      },
+      "administration": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "course_content": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.667,
+        "support": 1
+      },
+      "other": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      }
+    },
+    "matched_count": 35
+  },
+  "v2": {
+    "overall_accuracy": 0.9143,
+    "sentiment_accuracy": 1.0,
+    "sentiment_f1": 1.0,
+    "category_accuracy": 0.9143,
+    "category_f1": 0.8956,
+    "elapsed_seconds": 11.3,
+    "sentiment_confusion_matrix": {
+      "positive": {
+        "positive": 11,
+        "neutral": 0,
+        "negative": 0,
+        "mixed": 0
+      },
+      "neutral": {
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "mixed": 0
+      },
+      "negative": {
+        "positive": 0,
+        "neutral": 0,
+        "negative": 21,
+        "mixed": 0
+      },
+      "mixed": {
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "mixed": 2
+      }
+    },
+    "category_confusion_matrix": {
+      "teaching": {
+        "teaching": 5,
+        "assessment": 0,
+        "workload": 0,
+        "facilities": 0,
+        "administration": 0,
+        "course_content": 1,
+        "other": 0
+      },
+      "assessment": {
+        "teaching": 0,
+        "assessment": 6,
+        "workload": 0,
+        "facilities": 0,
+        "administration": 0,
+        "course_content": 0,
+        "other": 0
+      },
+      "workload": {
+        "teaching": 0,
+        "assessment": 0,
+        "workload": 7,
+        "facilities": 0,
+        "administration": 0,
+        "course_content": 0,
+        "other": 0
+      },
+      "facilities": {
+        "teaching": 2,
+        "assessment": 0,
+        "workload": 0,
+        "facilities": 5,
+        "administration": 0,
+        "course_content": 0,
+        "other": 0
+      },
+      "administration": {
+        "teaching": 0,
+        "assessment": 0,
+        "workload": 0,
+        "facilities": 0,
+        "administration": 5,
+        "course_content": 0,
+        "other": 0
+      },
+      "course_content": {
+        "teaching": 0,
+        "assessment": 0,
+        "workload": 0,
+        "facilities": 0,
+        "administration": 0,
+        "course_content": 1,
+        "other": 0
+      },
+      "other": {
+        "teaching": 0,
+        "assessment": 0,
+        "workload": 0,
+        "facilities": 0,
+        "administration": 0,
+        "course_content": 0,
+        "other": 3
+      }
+    },
+    "per_class_sentiment": {
+      "positive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "neutral": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "negative": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 21
+      },
+      "mixed": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      }
+    },
+    "per_class_category": {
+      "teaching": {
+        "precision": 0.714,
+        "recall": 0.833,
+        "f1": 0.769,
+        "support": 6
+      },
+      "assessment": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      },
+      "workload": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 7
+      },
+      "facilities": {
+        "precision": 1.0,
+        "recall": 0.714,
+        "f1": 0.833,
+        "support": 7
+      },
+      "administration": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "course_content": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.667,
+        "support": 1
+      },
+      "other": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      }
+    },
+    "matched_count": 35
+  },
+  "v3": {
+    "overall_accuracy": 0.9143,
+    "sentiment_accuracy": 1.0,
+    "sentiment_f1": 1.0,
+    "category_accuracy": 0.9143,
+    "category_f1": 0.8956,
+    "elapsed_seconds": 12.38,
+    "sentiment_confusion_matrix": {
+      "positive": {
+        "positive": 11,
+        "neutral": 0,
+        "negative": 0,
+        "mixed": 0
+      },
+      "neutral": {
+        "positive": 0,
+        "neutral": 1,
+        "negative": 0,
+        "mixed": 0
+      },
+      "negative": {
+        "positive": 0,
+        "neutral": 0,
+        "negative": 21,
+        "mixed": 0
+      },
+      "mixed": {
+        "positive": 0,
+        "neutral": 0,
+        "negative": 0,
+        "mixed": 2
+      }
+    },
+    "category_confusion_matrix": {
+      "teaching": {
+        "teaching": 5,
+        "assessment": 0,
+        "workload": 0,
+        "facilities": 0,
+        "administration": 0,
+        "course_content": 1,
+        "other": 0
+      },
+      "assessment": {
+        "teaching": 0,
+        "assessment": 6,
+        "workload": 0,
+        "facilities": 0,
+        "administration": 0,
+        "course_content": 0,
+        "other": 0
+      },
+      "workload": {
+        "teaching": 0,
+        "assessment": 0,
+        "workload": 7,
+        "facilities": 0,
+        "administration": 0,
+        "course_content": 0,
+        "other": 0
+      },
+      "facilities": {
+        "teaching": 2,
+        "assessment": 0,
+        "workload": 0,
+        "facilities": 5,
+        "administration": 0,
+        "course_content": 0,
+        "other": 0
+      },
+      "administration": {
+        "teaching": 0,
+        "assessment": 0,
+        "workload": 0,
+        "facilities": 0,
+        "administration": 5,
+        "course_content": 0,
+        "other": 0
+      },
+      "course_content": {
+        "teaching": 0,
+        "assessment": 0,
+        "workload": 0,
+        "facilities": 0,
+        "administration": 0,
+        "course_content": 1,
+        "other": 0
+      },
+      "other": {
+        "teaching": 0,
+        "assessment": 0,
+        "workload": 0,
+        "facilities": 0,
+        "administration": 0,
+        "course_content": 0,
+        "other": 3
+      }
+    },
+    "per_class_sentiment": {
+      "positive": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 11
+      },
+      "neutral": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 1
+      },
+      "negative": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 21
+      },
+      "mixed": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 2
+      }
+    },
+    "per_class_category": {
+      "teaching": {
+        "precision": 0.714,
+        "recall": 0.833,
+        "f1": 0.769,
+        "support": 6
+      },
+      "assessment": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 6
+      },
+      "workload": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 7
+      },
+      "facilities": {
+        "precision": 1.0,
+        "recall": 0.714,
+        "f1": 0.833,
+        "support": 7
+      },
+      "administration": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 5
+      },
+      "course_content": {
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.667,
+        "support": 1
+      },
+      "other": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 3
+      }
+    },
+    "matched_count": 35
+  }
+}

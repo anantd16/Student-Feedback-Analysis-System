@@ -1,0 +1,17 @@
+# Core Framework & UI
+streamlit>=1.35.0
+plotly>=5.20.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# LLM & APIs
+google-genai>=0.1.0
+
+# Storage & Google Sheets
+gspread>=6.0.0
+google-auth>=2.20.0
+google-auth-oauthlib>=1.0.0
+
+# Utilities
+python-dateutil>=2.8.2
+

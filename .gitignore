@@ -1,0 +1,22 @@
+# Environment & Secrets
+.streamlit/secrets.toml
+.env
+*.key
+*.pem
+credentials.json
+service_account.json
+
+# Local storage database and fallbacks
+data/local_storage.db
+data/local_fallback_runs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
